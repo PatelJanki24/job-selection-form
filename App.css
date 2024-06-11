@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  background-color: #E8E2DC; /* Background color of the app */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #d3c7bc; /* Header background color */
+  padding: 20px;
+  color: black; /* Changed to black for better contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+select {
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #d3c7bc; /* Border color */
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #d3c7bc; /* Button background color */
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a89b8b; /* Slightly darker shade for hover effect */
+}
